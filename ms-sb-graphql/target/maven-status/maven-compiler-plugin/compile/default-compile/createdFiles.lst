@@ -1,0 +1,5 @@
+com\sky\graphql\model\Employee.class
+com\sky\graphql\model\Employee$EmployeeBuilder.class
+com\sky\graphql\MsSbGraphqlApplication.class
+com\sky\graphql\query\Query.class
+.netbeans_automatic_build

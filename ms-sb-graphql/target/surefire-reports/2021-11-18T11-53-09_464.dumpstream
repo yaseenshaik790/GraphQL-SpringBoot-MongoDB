@@ -1,0 +1,15 @@
+# Created at 2021-11-18T11:53:12.993
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2021-11-18T11:53:12.995
+WARNING: Illegal reflective access by com.esotericsoftware.reflectasm.AccessClassLoader (file:/C:/Users/shayasee/.m2/repository/com/esotericsoftware/reflectasm/1.11.7/reflectasm-1.11.7.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+
+# Created at 2021-11-18T11:53:12.996
+WARNING: Please consider reporting this to the maintainers of com.esotericsoftware.reflectasm.AccessClassLoader
+
+# Created at 2021-11-18T11:53:13.008
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2021-11-18T11:53:13.009
+WARNING: All illegal access operations will be denied in a future release
+

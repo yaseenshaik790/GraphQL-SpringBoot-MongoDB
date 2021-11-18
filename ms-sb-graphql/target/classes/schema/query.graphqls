@@ -1,0 +1,26 @@
+type Query{
+    firstQuery : String
+    secondQuery : String
+    fullName(firstName:String , secondName:String):String
+    employee(emp : Employee) : String
+    employeeById(empId : String) : EmployeeResponse
+    saveEmployee( request : EmployeeRequest) : EmployeeResponse
+}
+
+input Employee{
+    empId : String
+    empName : String
+    phoneNo : Long
+}
+
+input EmployeeRequest{
+    empId : String
+    empName : String
+    phoneNo : Long
+}
+
+type EmployeeResponse{
+    empId : String
+    empName : String
+    phoneNo : Long
+}
