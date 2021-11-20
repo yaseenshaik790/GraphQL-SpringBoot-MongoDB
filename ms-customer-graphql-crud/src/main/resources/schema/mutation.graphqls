@@ -1,0 +1,16 @@
+type Mutation {
+    createCustomer(request: CustomerRequest) : CustomerResponse
+}
+
+input CustomerRequest{
+    custId: Int
+    custName: String
+    addressDatas: [AddressDatas]
+}
+
+input AddressDatas {
+    houseNo: Int
+    city: String
+    state: String
+    pincode: Int
+}

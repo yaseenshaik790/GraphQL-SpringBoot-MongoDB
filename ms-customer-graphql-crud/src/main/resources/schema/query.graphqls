@@ -1,0 +1,18 @@
+
+type Query{
+    getCustomer(customerId : Int) : CustomerResponse
+}
+
+type CustomerResponse {
+    custId: Int
+    custName: String
+    addresses(state : String): [Address]
+}
+
+type Address {
+    houseNo: Int
+    city: String
+    state: String
+    pincode: Int
+}
+
